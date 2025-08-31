@@ -64,7 +64,7 @@ export default function AppointmentPage() {
     <div className="min-h-screen pt-24 px-6 pb-16 bg-gradient-to-b from-primary to-secondary-dark">
       <div className="max-w-2xl mx-auto">
         <div className="mb-12 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent-teal to-accent-purple bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-accent-teal to-accent-purple bg-clip-text text-green-500 mb-4">
             Book an Appointment
           </h1>
           <p className="text-lg text-white/80">

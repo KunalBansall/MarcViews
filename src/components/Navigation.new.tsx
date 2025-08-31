@@ -45,7 +45,7 @@ const Navigation = () => {
         { title: 'FAQs', path: '/company/faqs' },
         { title: 'Leadership', path: '/company/leadership' },
         { title: 'Partners', path: '/company/partners' },
-        { title: 'Pay Here', path: '/company/payhere' },
+        // { title: 'Pay Here', path: '/company/payhere' },
       ],
     },
     {

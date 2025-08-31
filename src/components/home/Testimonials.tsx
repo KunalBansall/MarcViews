@@ -88,14 +88,20 @@ const Testimonials = () => {
               </div>
               
               <div className="flex items-center mb-4">
-                <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
-                  <Image
-                    src={testimonial.avatar}
-                    alt={testimonial.name}
-                    width={48}
-                    height={48}
-                    className="object-cover"
-                  />
+                <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4 bg-gray-200 flex items-center justify-center">
+                  {testimonial.avatar && testimonial.avatar !== '' ? (
+                    <Image
+                      src={testimonial.avatar}
+                      alt={testimonial.name}
+                      width={48}
+                      height={48}
+                      className="object-cover"
+                    />
+                  ) : (
+                    <div className="text-gray-500 text-lg font-medium">
+                      {testimonial.name.charAt(0).toUpperCase()}
+                    </div>
+                  )}
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
